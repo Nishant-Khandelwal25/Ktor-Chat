@@ -33,7 +33,7 @@ class RoomController(
     ) {
         members.values.forEach { member ->
             val messageEntity = Message(
-                userName = senderUsername,
+                username = senderUsername,
                 text = message,
                 timestamp = System.currentTimeMillis()
             )
